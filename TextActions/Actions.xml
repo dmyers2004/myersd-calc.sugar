@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+http://wiki.macrabbit.com/index/ActionXML/
+https://github.com/onecrayon/ShellActions-sugar
+https://github.com/onecrayon/Scriptomatic-sugar
+-->
+<action-recipes>
+
+	<action id="com.projectorangebox.myers.calc" category="">
+		<class>OCShellAction</class>
+		<title>Calc</title>
+		<key-equivalent></key-equivalent>
+		<setup>
+			<script>calc.php</script>
+			<input>selection</input>
+		</setup>
+		<key-equivalent>control shift c</key-equivalent>
+	</action>
+
+</action-recipes>
